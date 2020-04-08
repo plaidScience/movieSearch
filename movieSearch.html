@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Ethan Schneider">
+		<title>Movie Search</title>
+		<link rel="stylesheet" href="jquery/jquery-ui.min.css">
+		<script src="jquery/external/jquery/jquery.js"></script>
+		<script src="jquery/jquery-ui.min.js"></script>
+		<link rel="stylesheet" href="movieSearch.css">
+		<link rel="icon" href="resc/icon.png">
+		<script src="movieSearch.js"></script>
+	</head>
+	<body>
+		<div id="input" class="topbar">
+			<div id="search" class="ui-widget">
+				<label for="search">Search: </label>
+				<input type="text" class="ui-corner-all inputHeight" id="search" value="">
+				<button id="searchB" class="ui-button ui-widget ui-corner-all"> <span class="ui-icon ui-icon-search"></span> Search </button>
+			</div>
+			<div id="credit"><img src="resc/tmdb.png" alt="Powered by The Movie Database"></div>
+		</div>
+		<div id="movies" class="lCol">
+		</div>
+		<div id="favList" class="rCol">
+			<br>
+			<div id="favListSort"></div>
+		</div>
+	</body>
+</html>
